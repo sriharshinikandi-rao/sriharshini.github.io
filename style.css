@@ -1,47 +1,78 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #0f172a;
-    color: white;
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #0b1220;
+  color: #e5e7eb;
 }
 
-header {
-    text-align: center;
-    padding: 50px;
-    background: #1e293b;
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
 }
 
-section {
-    padding: 40px;
-    max-width: 900px;
-    margin: auto;
+.hero h1 {
+  font-size: 42px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 10px 0 20px;
+  color: #94a3b8;
+}
+
+/* BUTTON */
+.btn {
+  background: #38bdf8;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* SECTIONS */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 20px;
 }
 
 h2 {
-    color: #38bdf8;
+  color: #38bdf8;
+  margin-bottom: 20px;
 }
 
-ul li {
-    background: #1e293b;
-    margin: 8px;
-    padding: 10px;
-    border-radius: 6px;
-    list-style: none;
+/* SKILLS */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
+.grid span {
+  background: #1e293b;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* PROJECT CARDS */
 .card {
-    background: #1e293b;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 10px;
+  background: #111827;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
 }
 
-button {
-    padding: 10px 20px;
-    background: #38bdf8;
-    border: none;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0f172a;
+  color: #94a3b8;
 }
